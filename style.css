@@ -1,0 +1,27 @@
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.header, .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937; 
+    padding: 10px;
+}
+.izquerda {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    background-color: #1F2937; 
+    padding: 10px;
+}
